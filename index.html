@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css darslari</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <style>
+        .container {
+            display: flex;
+            flex-direction: row; 
+            justify-content: space-between; /* Bo'shliqlarni teng taqsimlash */
+            align-items: center; /* Elementlarni markazlash */
+            height: 200px;
+            border: 2px solid lightgray;
+        }
+        
+        .item {
+            background-color: lightcoral;
+            padding: 20px;
+            margin: 10px;
+            color: white;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">Element 1</div>
+        <div class="item">Element 2</div>
+        <div class="item">Element 3</div>
+    </div> -->
+    <!-- <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 ustunli maket */
+            grid-template-rows: auto; /* Satr o'lchami avtomatik */
+            grid-gap: 10px; /* Bo'shliqlar */
+            padding: 10px;
+            background-color: lightgray;
+        }
+        
+        .grid-item {
+            background-color: lightseagreen;
+            padding: 20px;
+            color: white;
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item">Element 1</div>
+        <div class="grid-item">Element 2</div>
+        <div class="grid-item">Element 3</div>
+        <div class="grid-item">Element 4</div>
+        <div class="grid-item">Element 5</div>
+        <div class="grid-item">Element 6</div>
+    </div> -->
+<!--     
+    CSS (Cascading Style Sheets) - bu veb-sahifalarning ko'rinishini boshqarish uchun ishlatiladigan uslublar to'plami. CSS yordamida siz HTML elementlariga ranglar, shriftlar, joylashuvlar, maketlar va boshqa dizayn xususiyatlarini qo'llashingiz mumkin. CSS veb-dizaynda juda muhim bo'lgan bir qator asosiy mavzularni o'z ichiga oladi. Quyida CSS da eng muhim va asosiy mavzular haqida batafsil ma'lumot berilgan: 
+
+1. CSS Sintaksisi
+CSS kod yozishning asosiy ko'rinishi:
+
+seletor {
+    property: value;
+    property: value;
+}
+seletor: Qaysi elementga uslub qo'llanilishini belgilaydi.
+
+property: Elementning qaysi xususiyati o'zgartirilishini 
+bildiradi (masalan, rang, shrift hajmi).
+
+value: Xususiyatning qiymatini belgilaydi.
+
+2. CSS Selektorlar
+CSS selektorlar HTML elementlarini tanlash va ularga uslub berish uchun ishlatiladi. Selektorlarning bir necha turlari mavjud:
+
+element selector misol:
+h1 {
+    color: red;
+}
+
+id selector misol :
+#asosiy {
+    background-color: yellow;
+}
+
+
+class selector misol :
+.qiziqarli {
+    font-weight: bold;
+}
+
+
+universal selector misol :
+* {
+    margin: 0;
+    padding: 0;
+}
+
+attribut selector miisol :
+input[type="text"] {
+    border: 1px solid black;
+}
+
+
+ CSS GA USLUBLAR QO'SHISH :
+ INLINE CSS
+ Elementning ichiga bevosita uslub qo'shish.
+
+<p style="color: green;">Bu yashil matn.</p>
+
+
+INTERNAL CSS
+HTML hujjatining <head> qismida <style> tegi ichida uslub qo'shish.
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal CSS Misol</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: navy;
+        }
+    </style>
+</head>
+<body>
+    <h1>Salom, dunyo!</h1>
+    <p>Bu misol matni.</p>
+</body>
+</html>
+
+
+EXTERNAL CSS :
+Alohida .css fayl yaratib, uni HTML hujjatiga <link> tegidan foydalangan holda qo'shish.
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h1 {
+    color: navy;
+    text-align: center;
+}
+ 
+
+4. CSS Ranglar
+CSS-da ranglarni turli usullarda belgilash mumkin:
+
+
+Rang Nomi (Color Name):
+color: red;
+
+RGB Ranglari (RGB Colors):
+color: rgb(255, 0, 0); /* Qizil rang */
+
+
+Hexadecimal Ranglar:
+color: #ff0000; /* Qizil rang */
+
+
+RGBA Ranglari (RGBA Colors):
+color: rgba(255, 0, 0, 0.5); /* Yarim shaffof qizil */
+
+
+HSL Ranglari (HSL Colors):
+color: hsl(0, 100%, 50%); /* Qizil rang */
+
+
+HSLA Ranglari (HSLA Colors):
+color: hsla(0, 100%, 50%, 0.5); /* Yarim shaffof qizil */
+
+
+5. CSS Shrifts (Fonts)
+CSS yordamida shriftlar va ularning ko'rinishini boshqarish mumkin:
+
+Shrift Oilasini Tanlash (Font Family):
+font-family: 'Times New Roman', Times, serif;
+
+Shrift O'lchamini Belgilash (Font Size):
+font-size: 16px;
+
+Shrift Usuli (Font Style):
+font-style: italic;
+
+Shrift Qalinligi (Font Weight):
+font-weight: bold;
+
+Matnni O'rab Yozish (Text Decoration):
+text-decoration: underline;
+
+Matnning Joylashuvi (Text Alignment):
+text-align: center;
+
+Matnning Oraliqlari (Line Height):
+line-height: 1.5;
+
+
+6. CSS Box Modeli
+CSS box modeli har bir HTML elementini to'rt qismdan iborat quti sifatida ko'rish imkonini beradi: kontent, padding, border, va margin.
+
+Content: Asosiy mazmun yoki matn.
+
+Padding: Mazmun bilan border o'rtasidagi ichki bo'shliq.
+
+Border: Elementning chegarasi.
+
+Margin: Elementning tashqi bo'shligi, boshqa elementlar bilan bo'shliqni belgilaydi.
+
+Misol:
+div {
+    width: 200px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 10px;
+}
+Yuqoridagi kodda elementning umumiy kengligi quyidagicha bo'ladi:
+
+200px (content) + 20px * 2 (padding) + 5px * 2 (border) + 10px * 2 (margin) = 270px.
+-->
+
+<script src="app.js"></script>
+</body>
+</html>

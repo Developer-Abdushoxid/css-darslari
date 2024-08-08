@@ -1,0 +1,20 @@
+/* Qachon Flexboxdan Foydalanish
+Yagona qator yoki ustun: Elementlarni bir satr yoki ustun bo'ylab joylashtirish kerak bo'lganda.
+Elementlarni markazlash: Elementlarni osonlik bilan markazlash kerak bo'lganda.
+Moslashuvchan bo'shliqlar: Elementlar orasidagi bo'shliqlarni avtomatik tarzda taqsimlash kerak bo'lganda.
+Misollar:
+
+Navigatsiya paneli: Navigatsiya elementlarini bir qator bo'ylab joylashtirish.
+Kartalar: Elementlarni ustun bo'ylab tartibga solish.
+Oddiy gridlar: Oddiy kartalar yoki elementlar gridini yaratish.
+Qachon Griddan Foydalanish
+Murakkab tartiblar: Sahifaning murakkab maketlarini boshqarish kerak bo'lganda.
+Ikkala o'lchovli boshqaruv: Satr va ustun bo'ylab aniq joylashuv va tartib kerak bo'lganda.
+Bo'shliq nazorati: Bo'shliqlarni aniq boshqarish kerak bo'lganda.
+Misollar:
+
+Butun sahifa maketi: Sahifa boshida murakkab maket yaratish.
+Dashbord: Murakkab elementlar va widgetlar gridini yaratish.
+Galereya: Rasmlar yoki kartalarning murakkab gridini yaratish.
+Yakuniy Xulosa
+CSS Flexbox va CSS Grid har ikkalasi ham veb-sahifalar maketlarini yaratishda muhim rol o'ynaydi. Flexbox bir qator yoki ustun bo'ylab moslashuvchan maketlar yaratishda juda qulay, CSS Grid esa murakkab va ikki o'lchovli maketlar uchun idealdir. Veb-dizaynerlar odatda bir xil sahifada ikkala vositani birlashtiradilar, bu esa optimal natijalarga erishishga yordam beradi. Maket yaratishda bu ikkala vositaning imkoniyatlarini tushunish sizga dizayn jarayonida katta qulaylik va ijodiy imkoniyatlar beradi. */
